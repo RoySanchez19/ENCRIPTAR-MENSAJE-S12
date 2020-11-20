@@ -1,0 +1,6 @@
+// Convertir letras a numero o cod ASCCII
+        let convASCII = inputText.value.charCodeAt(i);
+//Convertir cod ASCCI a nuero a letras
+            newText += String.fromCharCode((convASCII - 65 +parseInt(key))% 26 +65 );
+//Exam
+charcodeascci
